@@ -4,7 +4,7 @@ import searchIcon from '../../assets/navbarAssets/searchIcon.png'
 import notificationsIcon from '../../assets/navbarAssets/notificationsIcon.png'
 import groupIcon from '../../assets/navbarAssets/groupIcon.png'
 import dropdownIcon from '../../assets/navbarAssets/dropdownIcon.png'
-import profilePhoto from '../../assets/navbarAssets/ProfilePhoto.png'
+import profilePhoto from '../../assets/navbarAssets/profilePhoto.png'
 
 const Navbar = () => {
     const [token, setToken] = useState(true);
