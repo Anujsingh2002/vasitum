@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className=' w-[33%]'>
                 <div className='py-3 relative group'>
                     <input className='hidden md:block w-[290px] bg-[#FAFAFA] border-[#E0E0E0] px-2 py-1 rounded-sm border-[1px] focus:outline-[#554f4f] focus:' type="text" placeholder='Search' />
-                    <IoMdSearch className='absolute text-[#B2B2B2] top-1/3 translate-x-64 right-[95%]' />
+                    <IoMdSearch className='md:absolute text-[#B2B2B2] top-1/3 md:translate-x-64 right-[95%]' />
                     {/* <img src={searchIcon} className='absolute text-[#B2B2B2] top-1/3 translate-x-64 right-auto' alt="" /> */}
                 </div>
             </div>
