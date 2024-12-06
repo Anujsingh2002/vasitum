@@ -12,6 +12,21 @@ const B=[
   {
     heading:'Short meeting with product designer from IT Departement',
     timing:'Today - 09.15 AM'
+  },{
+    heading:'Interview with candidates',
+    timing:'Today - 10.30 AM'
+  },
+  {
+    heading:'Short meeting with product designer from IT Departement',
+    timing:'Today - 09.15 AM'
+  },
+  {
+    heading:'Interview with candidates',
+    timing:'Today - 10.30 AM'
+  },
+  {
+    heading:'Short meeting with product designer from IT Departement',
+    timing:'Today - 09.15 AM'
   }
 ]
 
@@ -33,7 +48,7 @@ const Main = () => {
           <BigCard />
         </div>
 
-        <div className=''>
+        <div className='mb-10 md:md-0'>
           <Announcements />
         </div>
       </div>
@@ -87,7 +102,7 @@ const Main = () => {
 
               <div><p className='text-[#686868] text-xs'>Other</p></div>
 
-              <div className=''>
+              <div className='h-[20vh] overflow-scroll'>
                 {B.map((item,index)=>(
                   <div key={index} className='flex items-center justify-between bg-[#FAFAFA] border-[1px] p-1 rounded-md'>
                     <div className=''>

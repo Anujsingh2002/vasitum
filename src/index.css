@@ -5,3 +5,7 @@
 .active div{
     color: #FF5151;
 }
+
+::-webkit-scrollbar{
+    display:none;
+}
